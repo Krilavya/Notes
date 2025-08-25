@@ -1,7 +1,18 @@
 body {
-  background-image: url("https://images.freeimages.com/images/large-previews/c0a/fire-flare-1188516.jpg");
+  background-image: url("./Components/image/new.jpg");
+
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+
+.photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 12px; /* optional styling */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* optional shadow */
 }
 
 .main {
